@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name appMusicaApp.controller:AboutCtrl
+ * @name appMusicaApp.controller:BarCtrl
  * @description
- * # AboutCtrl
+ * # BarCtrl
  * Controller of the appMusicaApp
  */
 angular.module('appMusicaApp')
-  .controller('AboutCtrl', function () {
+  .controller('BarCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

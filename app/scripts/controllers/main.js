@@ -2,16 +2,15 @@
 
 /**
  * @ngdoc function
- * @name appAngularRockApp.controller:MainCtrl
+ * @name appMusicaApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the appAngularRockApp
+ * Controller of the appMusicaApp
  */
-angular.module('appAngularRockApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('appMusicaApp')
+  .controller('MainCtrl', function ($scope) {
+  $scope.theBestVideo = 'sMKoNBRZM1M';   
+  $scope.Beatles = 'uxha1IUsSPI';   
+  $scope.vQueen = 'eM8Ss28zjcE';
+  
+ });

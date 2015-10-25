@@ -1,12 +1,16 @@
-.browsehappy {
+/*.browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
-}
+}*/
 
 body {
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.carousel-image{
+  width: 100%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -80,4 +84,37 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+h2 {
+  padding: 20px;
+  margin:0 auto;
+}
+.titulo{
+  padding: 50px;
+}
+p{
+  text-align: justify;
+}
+.centrar{
+  margin-left:150px;
+}
+.contenedor{
+  
+  width: 100%;
+  height: auto;
+}
+.col1{
+    width: 45%;
+    height: auto;
+    float: left;
+    padding: 20px;
+    box-sizing:border-box;
+}
+.col2{
+    width: 55%;
+    height: auto;
+    float: left;
+    padding: 20px;
+    box-sizing:border-box;
 }

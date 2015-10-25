@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name appAngularRockApp
+ * @name appMusicaApp
  * @description
- * # appAngularRockApp
+ * # appMusicaApp
  *
  * Main module of the application.
  */
 angular
-  .module('appAngularRockApp', [
+  .module('appMusicaApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
@@ -17,7 +17,9 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap',
+    'youtube-embed'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -30,6 +32,31 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/foo', {
+        templateUrl: 'views/foo.html',
+        controller: 'FooCtrl',
+        controllerAs: 'foo'
+      })
+      .when('/bar', {
+        templateUrl: 'views/bar.html',
+        controller: 'BarCtrl',
+        controllerAs: 'bar'
+      })
+      .when('/the-rolling-stones', {
+        templateUrl: 'views/the-rolling-stones.html',
+        controller: 'TheRollingStonesCtrl',
+        controllerAs: 'theRollingStones'
+      })
+      .when('/the-beatles', {
+        templateUrl: 'views/the-beatles.html',
+        controller: 'TheBeatlesCtrl',
+        controllerAs: 'theBeatles'
+      })
+      .when('/queen', {
+        templateUrl: 'views/queen.html',
+        controller: 'QueenCtrl',
+        controllerAs: 'queen'
       })
       .otherwise({
         redirectTo: '/'

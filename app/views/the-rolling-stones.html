@@ -1,0 +1,18 @@
+
+
+	<!--<h2>Rolling Stones</h2>-->
+
+	<carousel interval="setInterval">
+		<slide ng-repeat="slide in slides" active="slide.active">
+			<img class="carousel-image" ng-src="{{slide.image}}">
+			<div class="carousel-caption">
+				<h2>{{slide.title}}</h2>
+				<p>{{slide.text}}</p>
+			</div>
+		</slide>
+	</carousel>
+	<div class="container">
+		<h1>The Rolling Stones</h1>
+		<youtube-video video-id="theBestVideo"></youtube-video>
+	</div>
+
