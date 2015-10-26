@@ -16,8 +16,8 @@ describe('Controller: MainCtrl', function () {
       // place here mocked dependencies
     });
   }));
-
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(MainCtrl.awesomeThings.length).toBe(3);
+  it('No hay nada', function(){
+    
   });
+
 });

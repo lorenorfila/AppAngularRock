@@ -9,9 +9,5 @@
  */
 angular.module('appMusicaApp')
   .controller('FooCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    
   });

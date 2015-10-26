@@ -17,7 +17,5 @@ describe('Controller: FooCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(FooCtrl.awesomeThings.length).toBe(3);
-  });
+  
 });

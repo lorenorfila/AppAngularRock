@@ -17,7 +17,5 @@ describe('Controller: BarCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(BarCtrl.awesomeThings.length).toBe(3);
-  });
+ 
 });

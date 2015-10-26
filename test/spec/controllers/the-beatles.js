@@ -17,7 +17,5 @@ describe('Controller: TheBeatlesCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(TheBeatlesCtrl.awesomeThings.length).toBe(3);
-  });
+  
 });

@@ -12,5 +12,6 @@ angular.module('appMusicaApp')
   $scope.theBestVideo = 'sMKoNBRZM1M';   
   $scope.Beatles = 'uxha1IUsSPI';   
   $scope.vQueen = 'eM8Ss28zjcE';
-  
+
+
  });
